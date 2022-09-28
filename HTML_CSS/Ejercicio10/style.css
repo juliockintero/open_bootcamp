@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.lateral-bar{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: aqua;
+    flex-grow: 1;
+    min-width: 100px;
+}
+.lateral-bar div{
+    padding: 0.5rem;
+}
+
+.main{
+    min-width: 200px;
+    flex-grow: 5;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+@media (max-width:640px) {
+  .lateral-bar{
+    display: flex;
+  }
+   
+    body{
+        flex-direction: column-reverse;
+    }
+    
+}
