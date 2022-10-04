@@ -4,7 +4,8 @@
   "description": "Primer ejercicio de curso de Javascript con Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saludo": "Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo"
   },
   "keywords": [
     "holamundo",
