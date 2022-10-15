@@ -9,6 +9,7 @@ console.log( alturaRed)
 console.log( alturaRed2)
 
 
+
 let minValorjs = Number.MIN_VALUE;
 
 let maxValorjs = Number.MAX_VALUE;
