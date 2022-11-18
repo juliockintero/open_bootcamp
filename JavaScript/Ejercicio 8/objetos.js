@@ -33,6 +33,6 @@ const listdatosPersonales = [
 
 ]
 
-const ordenedList = listdatosPersonales.sort((a, b) => a.edad - b.edad);
+const ordenedList = listdatosPersonales.sort((a, b) => b.edad - a.edad);
 
 console.log(ordenedList)
