@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  },
+  "scripts": {
+    "eslint-fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
